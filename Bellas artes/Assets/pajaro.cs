@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class pajaro : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // hola lucia
     void Start()
     {
         
