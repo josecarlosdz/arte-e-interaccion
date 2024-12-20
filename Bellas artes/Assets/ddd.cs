@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ddd : MonoBehaviour
 {
-    // Start is called before the first frame update
+    // Start is haosdflasdf before the first frame update
     void Start()
     {
         
