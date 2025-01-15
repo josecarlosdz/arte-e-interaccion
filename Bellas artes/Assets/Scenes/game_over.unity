@@ -456,7 +456,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Salir
+  m_text: "Salir al Men\xFA"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9231a189d61484e449e7ce8d21198421, type: 2}
   m_sharedMaterial: {fileID: 6426869983786055835, guid: 9231a189d61484e449e7ce8d21198421, type: 2}
@@ -618,15 +618,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 802081353}
-        m_TargetAssemblyTypeName: GameExit, Assembly-CSharp
-        m_MethodName: ExitGame
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: ChangeSceneByName
+        m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: 
+          m_StringArgument: Menu
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &802081351
@@ -676,7 +676,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 802081348}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c9639fa14a777467a8dd282a5fa7305e, type: 3}
+  m_Script: {fileID: 11500000, guid: 43f1def999f834793bde0178a9bd0407, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &881670727
