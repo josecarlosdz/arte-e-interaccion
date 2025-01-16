@@ -2,18 +2,18 @@ using UnityEngine;
 
 public class AutoMove : MonoBehaviour
 {
-    public float speed = 2f;                // Velocidad de movimiento
-    public Transform leftLimit;            // Límite izquierdo
-    public Transform rightLimit;           // Límite derecho
-    private bool movingRight = true;       // Indica si se está moviendo a la derecha
+    public float speed = 2f;                
+    public Transform leftLimit;            
+    public Transform rightLimit;           
+    private bool movingRight = true;       
 
     void Update()
     {
-        // Mover el personaje en la dirección actual
+        
         if (movingRight)
         {
             transform.position += Vector3.right * speed * Time.deltaTime;
-            // Cambiar dirección si alcanza el límite derecho
+            
             if (transform.position.x >= rightLimit.position.x)
             {
                 movingRight = false;
@@ -23,7 +23,7 @@ public class AutoMove : MonoBehaviour
         else
         {
             transform.position += Vector3.left * speed * Time.deltaTime;
-            // Cambiar dirección si alcanza el límite izquierdo
+            
             if (transform.position.x <= leftLimit.position.x)
             {
                 movingRight = true;
@@ -32,11 +32,11 @@ public class AutoMove : MonoBehaviour
         }
     }
 
-    // Voltear el sprite del personaje
+    
     void Flip()
     {
         Vector3 scale = transform.localScale;
-        scale.x *= -1; // Invertir la escala en X para voltear el sprite
+        scale.x *= -1; 
         transform.localScale = scale;
     }
 }

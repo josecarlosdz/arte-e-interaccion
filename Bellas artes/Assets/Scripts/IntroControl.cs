@@ -3,11 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class IntroController : MonoBehaviour
 {
-    public float introDuration = 10f; // Duración de la animación en segundos
+    public float introDuration = 10f; 
 
     void Start()
     {
-        // Llamar al método para cargar la siguiente escena después de la duración
+        
         Invoke("nivel_1", introDuration);
     }
 

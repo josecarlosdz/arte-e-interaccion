@@ -3,11 +3,11 @@ using UnityEngine.SceneManagement;
 
 public class LevelResetWithSpawnPoint : MonoBehaviour
 {
-    public Transform spawnPoint; // Define un punto de reaparición
+    public Transform spawnPoint; 
 
     private void Start()
     {
-        // Mueve el personaje al punto de reaparición al inicio
+        
         MoveToSpawnPoint();
     }
 
@@ -33,7 +33,7 @@ public class LevelResetWithSpawnPoint : MonoBehaviour
             Rigidbody2D rb = player.GetComponent<Rigidbody2D>();
             if (rb != null)
             {
-                rb.velocity = Vector2.zero; // Resetea la velocidad para evitar efectos no deseados
+                rb.velocity = Vector2.zero; 
             }
         }
     }

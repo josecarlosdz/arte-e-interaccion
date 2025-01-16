@@ -41183,7 +41183,7 @@ GameObject:
   - component: {fileID: 285435035}
   m_Layer: 0
   m_Name: 'Enemigo '
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -41267,7 +41267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e36be2162fb9a41fc8bbb22706845e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toquesParaGameOver: 3
+  toquesParaGameOver: 6
 --- !u!114 &285435036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42106,6 +42106,7 @@ GameObject:
   - component: {fileID: 773021572}
   - component: {fileID: 773021574}
   - component: {fileID: 773021575}
+  - component: {fileID: 773021576}
   m_Layer: 0
   m_Name: "Ara\xF1a"
   m_TagString: Enemy
@@ -42240,6 +42241,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.87, y: 0.87}
   m_EdgeRadius: 0
+--- !u!114 &773021576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773021571}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36be2162fb9a41fc8bbb22706845e1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toquesParaGameOver: 6
 --- !u!1 &862876176
 GameObject:
   m_ObjectHideFlags: 0
@@ -42253,12 +42267,11 @@ GameObject:
   - component: {fileID: 862876181}
   - component: {fileID: 862876180}
   - component: {fileID: 862876179}
-  - component: {fileID: 862876184}
-  - component: {fileID: 862876183}
   - component: {fileID: 862876185}
+  - component: {fileID: 862876186}
   m_Layer: 0
   m_Name: Pinchos
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -42928,31 +42941,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &862876183
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862876176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 424a1bf4e51b248b5bd9c4a8c9408ff0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &862876184
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 862876176}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea4ea26f6e06f479baa2bcbb119ea2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 561659090}
 --- !u!66 &862876185
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -45386,6 +45374,19 @@ CompositeCollider2D:
   m_OffsetDistance: 0.00005
   m_UseDelaunayMesh: 0
   m_CompositeGameObject: {fileID: 862876176}
+--- !u!114 &862876186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862876176}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36be2162fb9a41fc8bbb22706845e1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toquesParaGameOver: 6
 --- !u!1 &965229759
 GameObject:
   m_ObjectHideFlags: 0
@@ -47095,9 +47096,10 @@ GameObject:
   - component: {fileID: 2129475559}
   - component: {fileID: 2129475558}
   - component: {fileID: 2129475557}
+  - component: {fileID: 2129475561}
   m_Layer: 0
   m_Name: "Ara\xF1a 2"
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -47229,6 +47231,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2129475561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2129475556}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36be2162fb9a41fc8bbb22706845e1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toquesParaGameOver: 6
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

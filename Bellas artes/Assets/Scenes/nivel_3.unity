@@ -685,7 +685,7 @@ GameObject:
   - component: {fileID: 220648612}
   m_Layer: 0
   m_Name: "Ara\xF1a 2"
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e36be2162fb9a41fc8bbb22706845e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toquesParaGameOver: 3
+  toquesParaGameOver: 6
 --- !u!114 &220648613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1205,7 +1205,7 @@ MonoBehaviour:
   m_Follow: {fileID: 265275264}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 5
+    OrthographicSize: 7.98
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0
@@ -1496,7 +1496,7 @@ GameObject:
   - component: {fileID: 552439277}
   m_Layer: 0
   m_Name: "Ara\xF1a 5"
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1595,7 +1595,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e36be2162fb9a41fc8bbb22706845e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toquesParaGameOver: 3
+  toquesParaGameOver: 6
 --- !u!61 &552439279
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1768,7 +1768,7 @@ GameObject:
   - component: {fileID: 567127878}
   m_Layer: 0
   m_Name: "Ara\xF1a 1"
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1852,7 +1852,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e36be2162fb9a41fc8bbb22706845e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toquesParaGameOver: 3
+  toquesParaGameOver: 6
 --- !u!114 &567127879
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2047,11 +2047,10 @@ GameObject:
   - component: {fileID: 638394983}
   - component: {fileID: 638394982}
   - component: {fileID: 638394981}
-  - component: {fileID: 638394980}
-  - component: {fileID: 638394979}
+  - component: {fileID: 638394984}
   m_Layer: 0
   m_Name: Pinchos
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2640,31 +2639,6 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
---- !u!114 &638394979
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 638394975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 424a1bf4e51b248b5bd9c4a8c9408ff0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &638394980
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 638394975}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ea4ea26f6e06f479baa2bcbb119ea2e3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  spawnPoint: {fileID: 630299764}
 --- !u!66 &638394981
 CompositeCollider2D:
   m_ObjectHideFlags: 0
@@ -5155,6 +5129,19 @@ TilemapCollider2D:
   m_MaximumTileChangeCount: 1000
   m_ExtrusionFactor: 0
   m_UseDelaunayMesh: 0
+--- !u!114 &638394984
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 638394975}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e36be2162fb9a41fc8bbb22706845e1d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  toquesParaGameOver: 6
 --- !u!1 &752334549
 GameObject:
   m_ObjectHideFlags: 0
@@ -6292,7 +6279,7 @@ GameObject:
   - component: {fileID: 1038485278}
   m_Layer: 0
   m_Name: "Ara\xF1a 3"
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6391,7 +6378,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e36be2162fb9a41fc8bbb22706845e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toquesParaGameOver: 3
+  toquesParaGameOver: 6
 --- !u!61 &1038485280
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59053,7 +59040,7 @@ GameObject:
   - component: {fileID: 1450280194}
   m_Layer: 0
   m_Name: "Ara\xF1a 4"
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59152,7 +59139,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e36be2162fb9a41fc8bbb22706845e1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  toquesParaGameOver: 3
+  toquesParaGameOver: 6
 --- !u!61 &1450280196
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -59737,7 +59724,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7.98
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2

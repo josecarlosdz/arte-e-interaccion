@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class MusicChanger : MonoBehaviour
 {
-    public AudioClip newTrack; // Nueva canción para esta escena
+    public AudioClip newTrack; 
     private AudioSource musicSource;
 
     void Start()
