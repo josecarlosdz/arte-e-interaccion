@@ -1099,15 +1099,15 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 1500068760}
-        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
-        m_MethodName: LoadLevel
+        m_TargetAssemblyTypeName: SceneChanger, Assembly-CSharp
+        m_MethodName: ChangeSceneByName
         m_Mode: 5
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
-          m_StringArgument: "Explicaci\xF3n"
+          m_StringArgument: Video
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &1500068758
@@ -1157,7 +1157,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1500068755}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0ee21209609784b92beb2b0061ecead2, type: 3}
+  m_Script: {fileID: 11500000, guid: 43f1def999f834793bde0178a9bd0407, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1715434818
