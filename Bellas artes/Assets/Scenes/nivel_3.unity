@@ -335,8 +335,8 @@ GameObject:
   - component: {fileID: 177709279}
   - component: {fileID: 177709278}
   m_Layer: 0
-  m_Name: Plataforma (6)
-  m_TagString: Untagged
+  m_Name: Plataforma
+  m_TagString: Plataforma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -509,8 +509,8 @@ GameObject:
   - component: {fileID: 179040416}
   - component: {fileID: 179040415}
   m_Layer: 0
-  m_Name: Plataforma (3)
-  m_TagString: Untagged
+  m_Name: Plataforma
+  m_TagString: Plataforma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -873,6 +873,7 @@ GameObject:
   - component: {fileID: 265275259}
   - component: {fileID: 265275258}
   - component: {fileID: 265275257}
+  - component: {fileID: 265275265}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -1082,6 +1083,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &265275265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 265275256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 778c5dd0554e24cf5bbadf6960daf68e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &301577366
 GameObject:
   m_ObjectHideFlags: 0
@@ -5336,8 +5349,8 @@ GameObject:
   - component: {fileID: 873223402}
   - component: {fileID: 873223401}
   m_Layer: 0
-  m_Name: Plataforma (4)
-  m_TagString: Untagged
+  m_Name: Plataforma
+  m_TagString: Plataforma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5682,8 +5695,8 @@ GameObject:
   - component: {fileID: 1024268398}
   - component: {fileID: 1024268397}
   m_Layer: 0
-  m_Name: Plataforma (2)
-  m_TagString: Untagged
+  m_Name: Plataforma
+  m_TagString: Plataforma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5857,7 +5870,7 @@ GameObject:
   - component: {fileID: 1033826538}
   m_Layer: 0
   m_Name: Plataforma
-  m_TagString: Untagged
+  m_TagString: Plataforma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59269,8 +59282,8 @@ GameObject:
   - component: {fileID: 1675017691}
   - component: {fileID: 1675017690}
   m_Layer: 0
-  m_Name: Plataforma (5)
-  m_TagString: Untagged
+  m_Name: Plataforma
+  m_TagString: Plataforma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -59646,8 +59659,8 @@ GameObject:
   - component: {fileID: 1810047517}
   - component: {fileID: 1810047516}
   m_Layer: 0
-  m_Name: Plataforma (1)
-  m_TagString: Untagged
+  m_Name: Plataforma
+  m_TagString: Plataforma
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

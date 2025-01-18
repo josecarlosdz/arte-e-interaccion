@@ -225,8 +225,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -81, y: -16}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -37, y: -22.5}
+  m_SizeDelta: {x: 224.8472, y: 56.2118}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &379467118
 MonoBehaviour:
@@ -250,8 +250,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: "\xA1Cuidado y buena suerte! Que la luz est\xE9 siempre de tu lado."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
-  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 64149e5ac0a244ca086abb40dbd90b3d, type: 2}
+  m_sharedMaterial: {fileID: 2462828290594992579, guid: 64149e5ac0a244ca086abb40dbd90b3d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -381,8 +381,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -18.4919, y: 0.0005393}
-  m_SizeDelta: {x: 530.6533, y: 352.1}
+  m_AnchoredPosition: {x: -3.057, y: 11.392}
+  m_SizeDelta: {x: 624.8864, y: 414.63}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &393653986
 MonoBehaviour:
@@ -452,7 +452,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 463652813}
-  - component: {fileID: 463652812}
+  - component: {fileID: 463652814}
   m_Layer: 0
   m_Name: Empezar Nivel 1
   m_TagString: Untagged
@@ -460,19 +460,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &463652812
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 463652811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4a5e10a90c65f4232832f224d239a3e1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  introDuration: 21
 --- !u!4 &463652813
 Transform:
   m_ObjectHideFlags: 0
@@ -488,6 +475,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &463652814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 463652811}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f8a98f678d2a44a16b52bccb12d9c2ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nombreEscena: nivel_1
+  tiempoEspera: 50
 --- !u!1 &512686835
 GameObject:
   m_ObjectHideFlags: 0
@@ -523,8 +524,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26.583, y: 0.000071406}
-  m_SizeDelta: {x: 546.83, y: 352.1}
+  m_AnchoredPosition: {x: 2.000001, y: 2.0001163}
+  m_SizeDelta: {x: 614.7662, y: 395.8436}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &512686837
 MonoBehaviour:
@@ -620,8 +621,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -113, y: 51}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: -105.9, y: 48.2}
+  m_SizeDelta: {x: 224.8472, y: 56.2118}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &565506835
 MonoBehaviour:
@@ -643,15 +644,15 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Hola soy luma un ser de luz.\nLa oscuridad se ha apoderado de nuestra
+  m_text: "Hola, soy Luma, un ser de luz.\nLa oscuridad se ha apoderado de nuestra
     tierra, y necesitamos tu ayuda para recuperar la luz, las antorchas de luz guiar\xE1n
     tu camino, pero ten cuidado, enemigos y peligrosos pinchos dificultar\xE1n tu
-    tarea.\n\nPara avanzar entre los niveles, deber\xE1s encontrar una llave escondidd.
-    Si los enemigos te tocan seis veces... \xA1Game Over!Tendr\xE1s que empezar la
-    partida desde el principio."
+    tarea.\n\nPara avanzar entre los niveles, deber\xE1s encontrar una llave escondida.
+    Si los enemigos te tocan seis veces... \xA1Game Over! Tendr\xE1s que empezar
+    la partida desde el principio."
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
-  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 64149e5ac0a244ca086abb40dbd90b3d, type: 2}
+  m_sharedMaterial: {fileID: 2462828290594992579, guid: 64149e5ac0a244ca086abb40dbd90b3d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -826,8 +827,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -26.584, y: -0.97474}
-  m_SizeDelta: {x: 546.83, y: 354.05}
+  m_AnchoredPosition: {x: 1.9988012, y: 0.90421677}
+  m_SizeDelta: {x: 614.7662, y: 398.0358}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1080284416
 MonoBehaviour:
@@ -1070,8 +1071,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -26.583, y: 0}
-  m_SizeDelta: {x: -53.165, y: 0}
+  m_AnchoredPosition: {x: -21.589783, y: 16.559326}
+  m_SizeDelta: {x: 61.9513, y: 71.0483}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!95 &1791467687
 Animator:
@@ -1266,8 +1267,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -202.99998, y: -109}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: -220, y: -111}
+  m_SizeDelta: {x: 112.4236, y: 112.4236}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1861087364
 MonoBehaviour:
@@ -1361,7 +1362,7 @@ PlayableDirector:
   m_InitialTime: 0
   m_SceneBindings:
   - key: {fileID: 3668713275093889281, guid: 430abcfaa97dfcc4db841257f1f7163e, type: 2}
-    value: {fileID: 1791467687}
+    value: {fileID: 0}
   - key: {fileID: -3551839085200641921, guid: 430abcfaa97dfcc4db841257f1f7163e, type: 2}
     value: {fileID: 393653988}
   - key: {fileID: 5601150587209668406, guid: 430abcfaa97dfcc4db841257f1f7163e, type: 2}
@@ -1428,8 +1429,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 78, y: -4}
-  m_SizeDelta: {x: 200, y: 50}
+  m_AnchoredPosition: {x: 97.5, y: -0.5}
+  m_SizeDelta: {x: 224.8472, y: 56.2118}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2133724208
 MonoBehaviour:
@@ -1460,8 +1461,8 @@ MonoBehaviour:
 
     W: Saltar.'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
-  m_sharedMaterial: {fileID: 2140474, guid: 8a89fa14b10d46a99122fd4f73fca9a2, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 64149e5ac0a244ca086abb40dbd90b3d, type: 2}
+  m_sharedMaterial: {fileID: 2462828290594992579, guid: 64149e5ac0a244ca086abb40dbd90b3d, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
