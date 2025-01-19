@@ -1350,7 +1350,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 00c28ee9e1a684c92bf7a8cfb5e5df67, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nombreEscena: "Cr\xE9ditos"
+  nombreEscena: Creditos
 --- !u!114 &447213503
 MonoBehaviour:
   m_ObjectHideFlags: 0

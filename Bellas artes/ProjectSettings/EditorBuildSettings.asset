@@ -24,7 +24,7 @@ EditorBuildSettings:
     path: Assets/Scenes/nivel_3.unity
     guid: 4aef613bae8d3674f99e023f4d22981c
   - enabled: 1
-    path: "Assets/Scenes/Cre\u0301ditos.unity"
+    path: Assets/Scenes/Creditos.unity
     guid: bfe841697d1ff4be799ec73d0fde23c8
   - enabled: 1
     path: Assets/Scenes/Ajustes.unity
